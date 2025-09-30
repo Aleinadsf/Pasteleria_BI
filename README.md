@@ -31,7 +31,7 @@ Proyecto_ventas/
 ├── producto.py                  
 ├── analisis_pandas.py                  
 ├── analisis_numpy.py                  
-├── dashboard.py
+├── dashboard.py                  
 ├── utils.py                 
 ├── README.md               
 └── __pycache__/  
@@ -97,42 +97,5 @@ De igualmanera para visualizar el dashboard se ejecuta en consola lo siguiente:
    * **Tuplas** → Categorías únicas y fechas únicas.
    * **Diccionarios** → Conteo de productos por categoría.
 
-
-## Ejemplo de salida en consola
-
-
-============================================================
- CATEGORÍAS DISPONIBLES (Tupla)
-============================================================
-('Dulces', 'Bebidas', 'Pasteles', 'Galletas')
-
-============================================================
- FECHAS REGISTRADAS (Tupla)
-============================================================
-(datetime.date(2025, 8, 1), datetime.date(2025, 8, 15), ...)
-
-============================================================
- ANÁLISIS ESTADÍSTICOS DE LAS VENTAS
-============================================================
-Promedio            : 27.35
-Desviacion_estandar : 15.42
-Mediana             : 26.50
-Minimo              : 5.00
-Maximo              : 120.00
-
-...
-
-
-## Autores
-
-Moreno Medina, Krystel Victoria - U22214055
-Suarez Franklin, Daniela Nayeli - U22215095
-Aquijes Rivera, Maricielo Victoria - U22229709
-Ramon Gomez, Hector Bryan - U22104171
-
-
-* Curso: Lenguaje de programacion
-* Docente: Jhon Paul Anampa Garcia
-* Fecha: Julio,2025
 
 
