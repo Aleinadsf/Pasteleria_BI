@@ -118,3 +118,12 @@ def graficar_dulces_oct_dic(df):
     plt.grid(True, linestyle="--", alpha=0.5)
     plt.tight_layout()
     plt.show()
+    
+def graficar_ventas_mensuales(df):
+    resumen = df.groupby(df["Fecha"].dt.to_period("M"))["Total_Venta"].sum()
+    resumen.plot(kind="line", marker="o", figsize=(8,5), color="green")
+    plt.title("Tendencia mensual de ventas")
+    plt.xlabel("Mes")
+    plt.ylabel("Total de Ventas (S/.)")
+    plt.grid(True)
+    plt.show()
