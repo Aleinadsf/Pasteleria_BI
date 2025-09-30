@@ -28,11 +28,12 @@ Proyecto_ventas/
 
 ├── PF_GRUPO.csv             
 ├── main.py                  
-├── producto.py              
-├── analisis_pandas.py       
-├── analisis_numpy.py        
+├── producto.py                  
+├── analisis_pandas.py                  
+├── analisis_numpy.py                  
+├── dashboard.py
 ├── utils.py                 
-├── README.md                
+├── README.md               
 └── __pycache__/  
 
 
@@ -47,16 +48,21 @@ Asegúrate de tener instalado:
   * `numpy`
   * `matplotlib`
   * `seaborn`
+  * `streamlit`
 
 Instala las dependencias con:
 
-- pip install pandas numpy matplotlib seaborn
+- pip install pandas numpy matplotlib seaborn streamlit
 
 ## **Ejecución del programa**
 
 Desde la raíz del proyecto, ejecuta:
 
 - python main.py
+  
+De igualmanera para visualizar el dashboard se ejecuta en consola lo siguiente:
+
+- streamlit run dashboard.py
 
 ## Funcionalidades principales
 
